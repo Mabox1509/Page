@@ -13,7 +13,73 @@
                 font-family: 'Press Start 2P', cursive;
                 font-size: 17;
                 color: white;
+                image-rendering: pixelated;
             }
+
+
+            .youtubeButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Youtube.png");
+                background-position: 0 0;
+            }
+            .youtubeButton:hover
+            {
+                background-position: 0 -10;
+            }
+
+            .twitterButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Twitter.png");
+                background-position: 0 0;
+            }
+            .twitterButton:hover
+            {
+                background-position: 0 -10;
+            }
+
+            .discordButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Discord.png");
+                background-position: 0 0;
+            }
+            .discordButton:hover
+            {
+                background-position: 0 -10;
+            }
+
         </STYLE>
     </HEAD>
 
@@ -31,6 +97,12 @@
         <BR><BR>
         
         <H2>
+            Ultimos videos:
+        </H2>
+
+        <BR><BR>
+        
+        <H2>
             Redes sociales:
         </H2>
         <BR>
@@ -40,19 +112,19 @@
                 
                 <TD align="center">
                     <A href="https://www.youtube.com/channel/UCTnRTyNzo16cZkD18xke7hA/videos?view=0&sort=da&flow=grid" target="_blank">
-                        <IMG src="Resources/Images/Youtube.png" height="96" border="0">
+                        <BUTTON class="youtubeButton"></BUTTON>
                     </A>
                 </TD>
 
                 <TD align="center">
                     <A href="https://twitter.com/Mauricio2e1" target="_blank">
-                        <IMG src="Resources/Images/Twitter.png" height="96" border="0">
+                        <BUTTON class="twitterButton"></BUTTON>
                     </A>
                 </TD>
 
                 <TD align="center">
                     <A href="https://discord.gg/QGHDRjv3sN" target="_blank">
-                        <IMG src="Resources/Images/Discord.png" height="96" border="0">
+                        <BUTTON class="discordButton"></BUTTON>
                     </A>
                 </TD>
             </TR>

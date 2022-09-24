@@ -7,14 +7,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     
-        <STYLE>
-            body
-            {
-                font-family: 'Press Start 2P', cursive;
-                font-size: 17;
-                color: white;
-            }
-        </STYLE>
+        <HEAD>
+            <TITLE>Dream dog</TITLE>
+    
+            <STYLE>
+                body
+                {
+                    font-family: 'Press Start 2P', cursive;
+                    font-size: 17;
+                    color: white;
+                    image-rendering: pixelated;
+                }
+
+                .chainsButton
+                {  
+                    padding:0;
+                    margin: 0;
+                    width: 793px;
+                    height: 300px;
+                    text-align: center;
+                    top: 0px;
+                    left: 0px;
+                    position: relative;
+                    border: solid 10px #202225;
+                    border-radius: 5px;
+                    transition-duration: .25s;
+                    background:url("Resources/Images/Games/Chains_Logo.png");
+                }
+                .chainsButton:hover
+                {
+                    box-shadow: 0 10 30 rgba(0, 0, 0, .25);
+                    scale: 1.05;
+                }
+
+            </STYLE>
+        </HEAD>
     </HEAD>
 
     <BODY bgcolor=#2f3136>
@@ -26,24 +53,25 @@
         </H2>
         <BR>
 
-        <TABLE width="288" border="0">
+        <TABLE width="100%" border="0">
             <TR>
                 
                 <TD align="center">
-                    <A href="https://www.youtube.com/channel/UCTnRTyNzo16cZkD18xke7hA/videos?view=0&sort=da&flow=grid" target="Main">
-                        <IMG src="Resources/Images/Youtube.png" height="96" border="0">
+                    <A href="chains.html" target="Main">
+                        <BUTTON class="chainsButton"></BUTTON>
+                        
                     </A>
                 </TD>
+            </TR>
 
-                <TD align="center">
-                    <A href="https://twitter.com/Mauricio2e1" target="Main">
-                        <IMG src="Resources/Images/Twitter.png" height="96" border="0">
-                    </A>
-                </TD>
+            <BR>
 
+            <TR>
+                
                 <TD align="center">
-                    <A href="https://discord.gg/QGHDRjv3sN" target="Main">
-                        <IMG src="Resources/Images/Discord.png" height="96" border="0">
+                    <A href="chains.html" target="Main">
+                        <BUTTON class="chainsButton"></BUTTON>
+                        
                     </A>
                 </TD>
             </TR>
