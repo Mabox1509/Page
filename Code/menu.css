@@ -16,12 +16,12 @@
     display: inline-block;
 }
 
-#menu ul li img
+#menu ul li a img
 {
-    transition-duration: .25;
-    scale: 1;
+    border: 5px solid transparent;
+    transition-duration: 0.15;
 }
-#menu ul li img:hover
+#menu ul li a img:hover
 {
-    scale: 0.9;
+    border: 5px solid #FFFFFF40;
 }
