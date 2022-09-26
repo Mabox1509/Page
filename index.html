@@ -1,12 +1,150 @@
 <HTML>
     <HEAD>
-        <TITLE>Dream dog</TITLE>
-        <LINK rel="icon" type="image/x-icon" href="Resources/icon.ico">
+        <TITLE>Dream dog - Estudio Indie</TITLE>
+        <link rel="icon" type="image/x-icon" href="Resources/icon.ico">
+        
+        <META charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Code/menu.css" type="text/css"/>
+
+        <STYLE>
+            body
+            {
+                font-family: 'Press Start 2P', cursive;
+                font-size: 17;
+                color: white;
+                image-rendering: pixelated;
+            }
+
+
+            .youtubeButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Youtube.png");
+                background-position: 0 0;
+            }
+            .youtubeButton:hover
+            {
+                background-position: 0 -10;
+            }
+
+            .twitterButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Twitter.png");
+                background-position: 0 0;
+            }
+            .twitterButton:hover
+            {
+                background-position: 0 -10;
+            }
+
+            .discordButton
+            {  
+                padding:0;
+                margin: 0;
+                width: 96px;
+                height: 96px;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                position: relative;
+                border: solid 0px white;
+                border-radius: 5px;
+                transition-duration: .25s;
+                background:url("Resources/Images/Discord.png");
+                background-position: 0 0;
+            }
+            .discordButton:hover
+            {
+                background-position: 0 -10;
+            }
+
+        </STYLE>
     </HEAD>
 
-    <FRAMESET rows="118,*" border="0">
-        <FRAME name="UP" src="menu.html">
-        <FRAME name="Main" src="dream_dog.html">
-    </FRAMESET>
+    <BODY bgcolor=#2f3136>
+
+        <DIV id= "menu">
+            <UL class="menu">
+                <li>
+                    <A href="index.html"> <IMG src="Resources/Images/Buttons/Main.png" height="64"> </A>
+                </li>
+                <li>
+                    <A href="projects.html"> <IMG src="Resources/Images/Buttons/Proyectos.png" height="64"> </A>
+                </li>
+            </UL>
+        </DIV>
+
+        <CENTER>
+            <IMG src="Resources/Images/Logo.png" height="228" border="0">
+        </CENTER>
+        <BR><BR>
+
+        "Dream dog" es un pequeño estudio indie fundado el 28 de octubre del 2020.<BR><BR>
+        Hasta la actualidad ha publicado 7 juegos de los cuales 3 fueron desarrollados para game jams.<BR>
+
+
+        <BR><BR>
+        
+        <H2>
+            Ultimos videos:
+        </H2>
+
+        <BR><BR>
+        
+        <H2>
+            Redes sociales:
+        </H2>
+        <BR>
+
+        <TABLE width="288" border="0">
+            <TR>
+                
+                <TD align="center">
+                    <A href="https://www.youtube.com/channel/UCTnRTyNzo16cZkD18xke7hA/videos?view=0&sort=da&flow=grid" target="_blank">
+                        <BUTTON class="youtubeButton"></BUTTON>
+                    </A>
+                </TD>
+
+                <TD align="center">
+                    <A href="https://twitter.com/Mauricio2e1" target="_blank">
+                        <BUTTON class="twitterButton"></BUTTON>
+                    </A>
+                </TD>
+
+                <TD align="center">
+                    <A href="https://discord.gg/QGHDRjv3sN" target="_blank">
+                        <BUTTON class="discordButton"></BUTTON>
+                    </A>
+                </TD>
+            </TR>
+
+
+        </TABLE>
+
+    </BODY>
 
 </HTML>

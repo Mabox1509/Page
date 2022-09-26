@@ -1,0 +1,27 @@
+#menu
+{
+    background-color: #202225;
+    border-radius: 15px;
+}
+
+#menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#menu ul li
+{
+    display: inline-block;
+}
+
+#menu ul li img
+{
+    transition-duration: .25;
+    scale: 1;
+}
+#menu ul li img:hover
+{
+    scale: 0.9;
+}
