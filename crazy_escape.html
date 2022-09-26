@@ -2,8 +2,6 @@
     <HEAD>
         <TITLE>Dream dog</TITLE>
 
-
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         <META charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -252,26 +250,9 @@
             Las imagenes no son definitivas.
         </CENTER>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
-        <script>
-        axios.get('http://144.217.6.14:5514/getScores').then(r => {
-            var scores = r.data;
 
-            for(var i = 0;i < 10;i++)
-            {
-                if(i < scores.length)
-                {
-                    var nameObj = document.getElementById("Name_"+i);
+        <script src="Code/scores.js"></script>
 
-                    nameObj.innerHTML = scores[i].name;
-
-                    var timeObj = document.getElementById("Time_"+i);
-
-                    timeObj.innerHTML = scores[i].hours + ":" + scores[i].minutes + ":" + scores[i].seconds;
-                }
-            }
-        });
-        </script>
     </BODY>
 
 </HTML>
