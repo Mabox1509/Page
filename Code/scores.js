@@ -1,6 +1,5 @@
 function reqListener ()
 {
-    console.log();
     var scores = JSON.parse(this.responseText);
 
     for(var i = 0;i < 10 ;i++)
@@ -17,7 +16,7 @@ function reqListener ()
         timeObj.innerHTML = hours + ":" + minutes + ":" + seconds;
     }
 }
-  
+
 const req = new XMLHttpRequest();
 req.addEventListener("load", reqListener);
 req.open("GET", "http://144.217.6.14:5514/getScores");
