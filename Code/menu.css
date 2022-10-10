@@ -19,7 +19,7 @@
 #menu ul li a img
 {
     border: 5px solid transparent;
-    transition-duration: 0.15;
+    transition-duration: .25;
 }
 #menu ul li a img:hover
 {
