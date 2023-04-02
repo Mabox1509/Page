@@ -1,4 +1,4 @@
-const ip = "2.tcp.ngrok.io:11976";
+const ip = "0.tcp.ngrok.io:10354";
 const url = "https://mcapi.us/server/status?ip=" + ip;
 
 // Función que copia la dirección IP al portapapeles del usuario
